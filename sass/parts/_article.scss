@@ -14,7 +14,7 @@ article{
 		line-height: 35px;
 		margin-bottom: 20px;
 		a{
-			color: $color-gray01;
+			color: $color-black;
 		}
 	}
 	.entry-content{
@@ -71,6 +71,7 @@ article{
 		img, video{
 			max-width: 100%;
 			height: auto;
+            @extend .basic-alignment;
 		}
 		blockquote{
 			background: $color-gray04;

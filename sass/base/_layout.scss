@@ -9,7 +9,7 @@ body{
 	font-weight: 300;
 	font-size: 14px;
 	background: $color-background;
-	color: $color-gray01;
+	color: $color-black;
 	@media screen and (max-width: 1040px){
 		margin: 0 20px;
 	}
@@ -46,4 +46,11 @@ a{
 	@media screen and (max-width: 1040px){
 		width: 100%;
 	}
+}
+
+.basic-alignment {
+  &.left { float: left; margin-right: 1.5em; }
+  &.right { float: right; margin-left: 1.5em; }
+  &.center { display:block; margin: 0 auto 1.5em; }
+  &.left, &.right { margin-bottom: .8em; }
 }

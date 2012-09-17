@@ -24,10 +24,10 @@
 		<a class="google" href="https://plus.google.com/{{ site.googleplus_user }}?rel=author" title="Google+">Google+</a>
 		{% endif %}
 		{% if site.twitter_user %}
-		<a class="twitter" href="http://twitter.com/{{ site.twitter_user }}" title="Twitter">Twitter</a>
+        <a href="http://twitter.com/{{ site.twitter_user }}" title="Twitter"><i class="icon-twitter"></i></a>
 		{% endif %}
 		{% if site.github_user %}
-		<a class="github" href="https://github.com/{{ site.github_user }}" title="GitHub">GitHub</a>
+        <a href="https://github.com/{{ site.github_user }}" title="GitHub"><i class="icon-github-sign"></i></a>
 		{% endif %}
 		{% if site.linkedin_user %}
 		<a class="linkedin" href="http://www.linkedin.com/in/{{ site.linkedin_user }}">LinkedIn</a>
@@ -39,7 +39,7 @@
 		<a class="delicious" href="http://delicious.com/{{ site.delicious_user }}" title="Delicious">Delicious</a>
 		{% endif %}
 		{% if site.subscribe_rss %}
-		<a class="rss" href="{{ site.subscribe_rss }}" title="RSS">RSS</a>
+        <a href="{{ site.subscribe_rss }}" title="RSS"><i class="icon-rss"></i></a>
 		{% endif %}
 	</div>
 	<form class="search" action="{{ site.simple_search }}" method="get">
